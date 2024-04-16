@@ -1,0 +1,18 @@
+#Valores de ejemplo para la configuración de un gateway en ISTIO
+# -- Nombre a asignar al deployment de tipo kind:Gateway, debe colocarse en el mismo namespace donde
+# -- se despliega istio para poner el secret dentro del alcance de pod/ingressgateway de istio.
+gatewayName: bncpl-ingressgateway
+# -- Puerto a utilizar para la configuración del TLS
+securePortNumber: 443
+# -- Puerto inseguro utilizado, por omisión 80 para redireccionar hacia el puerto TLS configurado
+insecureHttpPort: 80
+# -- Nombre del namespace donde se desplego el IngressGateway de ISTIO
+istioNamespace: istio-system
+# -- Nombre del secret creado en kubernetes de tipo 'tls' con el --key y --cert utilizado para la configuración de TLS
+secretCertificateName: tls-apificacion-dev
+# -- Nombre del sub dominio a utilizar para identificar los servicios detras de este gateway a partir del CN asignado al
+# -- certificado configurado en el secret, ejemplo: el certificado creado en el secret está generado para el dominio 
+# -- CN: apolo-dev.org, los hosts permitidos son dev.apolo-dev.org, test.apolo-dev.org
+hosts:
+  - "dev.eks-apificacion.com"
+  - "eks-apificacion.com"
