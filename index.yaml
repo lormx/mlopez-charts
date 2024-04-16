@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   unity-istio-gateway:
   - apiVersion: v2
+    appVersion: v1.0.0
+    created: "2024-04-16T21:47:05.621422468Z"
+    description: Helm chart para el despliegue del ingress gateway vinculado a un
+      proyecto o namespace
+    digest: aecab059bef638105417443230c6d91fd0639d3feaf5d167b76e60059ce26c37
+    name: unity-istio-gateway
+    type: application
+    urls:
+    - https://github.com/lormx/mlopez-charts/releases/download/unity-istio-gateway-1.0.0-rc.2/unity-istio-gateway-1.0.0-rc.2.tgz
+    version: 1.0.0-rc.2
+  - apiVersion: v2
     appVersion: 1.0.0
     created: "2024-04-16T19:06:28.706778775Z"
     description: Helm chart para el despliegue del ingress gateway vinculado a un
@@ -12,4 +23,4 @@ entries:
     urls:
     - https://github.com/lormx/mlopez-charts/releases/download/unity-istio-gateway-1.0.0-rc.1/unity-istio-gateway-1.0.0-rc.1.tgz
     version: 1.0.0-rc.1
-generated: "2024-04-16T19:06:28.706805856Z"
+generated: "2024-04-16T21:47:05.621437887Z"
