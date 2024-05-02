@@ -1,5 +1,5 @@
 apiVersion: v2
-appVersion: "0.0.2"
+appVersion: "v.1.0.0"
 description: Helm chart para el despliegue del ingress gateway vinculado a un proyecto o namespace
 name: unity-istio-gateway
 type: application
