@@ -4,4 +4,4 @@ description: Helm chart para el despliegue del ingress gateway vinculado a un pr
 name: unity-istio-gateway
 type: application
 #Esta versión debe actualizarse cuando se ejecuten cambios sobre el Chart, para ser detectados por HELM
-version: "0.0.3"
+version: "0.1.0"
