@@ -46,6 +46,17 @@ entries:
     - https://github.com/lormx/mlopez-charts/releases/download/unity-istio-gateway-1.0.0-beta.1/unity-istio-gateway-1.0.0-beta.1.tgz
     version: 1.0.0-beta.1
   - apiVersion: v2
+    appVersion: v.1.0.0
+    created: "2024-05-02T16:07:06.270924395Z"
+    description: Helm chart para el despliegue del ingress gateway vinculado a un
+      proyecto o namespace
+    digest: 89c193a18bae0d1c5a1bb2e015ff16513305ab13c23aec2e63cd3b4a18864822
+    name: unity-istio-gateway
+    type: application
+    urls:
+    - https://github.com/lormx/mlopez-charts/releases/download/unity-istio-gateway-0.0.3/unity-istio-gateway-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
     appVersion: 0.0.2
     created: "2024-05-02T16:00:43.120061826Z"
     description: Helm chart para el despliegue del ingress gateway vinculado a un
@@ -67,4 +78,4 @@ entries:
     urls:
     - https://github.com/lormx/mlopez-charts/releases/download/unity-istio-gateway-0.0.1/unity-istio-gateway-0.0.1.tgz
     version: 0.0.1
-generated: "2024-05-02T16:00:43.120095839Z"
+generated: "2024-05-02T16:07:06.271009765Z"
